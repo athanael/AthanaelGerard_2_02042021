@@ -50,6 +50,7 @@ nav ul
     list-style-type: none;
     display: flex;
     margin-top: 0px;
+    flex-wrap: wrap-reverse;
 }
 
 nav a
