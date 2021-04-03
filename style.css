@@ -217,7 +217,7 @@ Main - filters section css
     background-color: #DEEBFF;
     height: 2rem;
     width: 2rem;
-    border-radius: 1rem;
+    border-radius: 0.94rem;
     display: flex;
     justify-content: center;
     align-items: center;
