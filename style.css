@@ -189,3 +189,127 @@ form
     width: 6rem;
     padding: 0;
 }
+
+/* ***********************
+Main - filters section css
+** **********************/
+
+#filters
+{
+    margin-top: 1.5rem;
+}
+
+#filter_content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#filters h2
+{
+    font-size: 0.8em;
+    font-family: "Raleway semi bold", Arial, Helvetica, sans-serif;
+}
+
+.button_icon
+{
+    background-color: #DEEBFF;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_icon i
+{
+    color: #0065FC;
+}
+
+.button_filter
+{
+    display: flex;
+    margin-left: 1.3rem;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+    height: 2rem;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+.button_filter:hover
+{
+    background-color: #DEEBFF;
+}
+
+.button_filter:hover .button_background
+{
+    color:white;
+    background-color: #0065FC;
+}
+
+.button_background
+{
+    display: flex;
+    margin-left: 2rem;
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+    height: 1.8rem;
+    width: fit-content;
+    margin-left: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-right: 0.1rem;
+}
+
+.button_filter p
+{
+    padding-right: 0.8rem;
+    padding-left: 0.5rem;
+    font-family: "Raleway semi bold", Arial, Helvetica, sans-serif;
+}
+
+#contextual_info
+{
+    margin-top: 1.8rem;
+    width: fit-content;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+#info_circle
+{
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#circle_background
+{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle_background i
+{
+    color: #0065FC;
+}
+
+#contextual_info p
+{
+    margin-left: 0.7rem;
+    font-size: 0.8rem;
+}
