@@ -13,6 +13,8 @@ body
     font-weight: normal;
     font-size: 1em;
     margin: 0px;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
 }
 
 /* *******
@@ -28,7 +30,6 @@ header
 
 header img
 {
-    margin-left: 1.7rem;
     margin-top: 1.3rem;
 }
 
@@ -62,6 +63,11 @@ nav a:visited
     display: inline-block;
     border-top: 3px transparent solid;
     padding-top: 2rem;
+}
+
+.left_size
+{
+    margin-left: 1.7rem;
 }
 
 .size
