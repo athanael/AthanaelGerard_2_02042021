@@ -39,6 +39,13 @@ nav
     margin-top: 0;
 }
 
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+}
+
 nav a
 {
     text-decoration: none;
