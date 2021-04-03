@@ -7,6 +7,11 @@ Global css
     src: url("/fonts/Raleway/static/Raleway-Regular.ttf") format('truetype');   
 }
 
+@font-face {
+    font-family: "Raleway semi bold";
+    src: url("/fonts/Raleway/static/Raleway-SemiBold.ttf") format('truetype');   
+}
+
 body
 {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -95,4 +100,89 @@ nav a:visited
 {
     border-top-color: #0065FC;
     color: #0065FC;
+}
+
+/* *********************
+Main - first section css
+** ********************/
+
+#search
+{
+    margin-top: 1.8rem;
+}
+
+#search_text h1
+{
+    margin-bottom: 0rem;
+    font-family: "Raleway semi bold", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+#search_text p
+{
+    margin-top: 0.3rem;
+}
+
+#search_bar
+{
+    height: 2rem;
+    display: flex;
+}
+
+#icon_part
+{
+    height: 2rem;
+    background-color: #F2F2F2;
+    width: 1.9rem;
+    border-radius: 0.6rem 0 0 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+    height: 2rem;
+}
+
+#form_part
+{
+    height: 2rem;
+    float: left;
+}
+
+#form_part form
+{
+    display: flex;
+}
+
+.form input
+{
+    height: 1.8rem;
+    padding-left: 0.8rem;
+    border: 0px;
+    margin: 0px;
+    font-family: "Raleway semi bold", Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+#style_text_form
+{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+#name
+{
+    width: 8rem;
+}
+
+#submit
+{
+    height: 2rem;
+    border-radius: 0 0.6rem 0.6rem 0;
+    background-color: #0065FC;
+    color: white;
 }
