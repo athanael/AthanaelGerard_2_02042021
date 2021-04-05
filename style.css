@@ -405,7 +405,7 @@ Css hebergement section
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: fit-content;
+    width: 100%;
     margin-left: 1.5rem;
 }
 
