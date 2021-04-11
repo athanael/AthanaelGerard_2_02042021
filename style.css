@@ -802,7 +802,7 @@ Media qwery 1st breakpoint css
     }
 }
 
-@media (max-width: 610px)
+@media (max-width: 620px)
 {
     body 
     {
@@ -902,10 +902,6 @@ Media qwery 1st breakpoint css
     {
         margin-left: 0;
         margin-right: 3rem;
-    }
-    .button_filter:nth-child(3)
-    {
-        margin-right: 8rem;
     }
     #info_circle
     {
